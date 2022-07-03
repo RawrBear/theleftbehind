@@ -14,8 +14,11 @@
         @apply text-xl font-Cinzel;
     }
 
-    p,
     a {
+        @apply font-Martel;
+    }
+
+    p {
         @apply font-Martel;
     }
 }
