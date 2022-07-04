@@ -1,9 +1,7 @@
+import HeaderMenu from "./components/HeaderMenu";
+
 function App() {
-    return (
-        <div className="App">
-            <h1>TEST</h1>
-        </div>
-    );
+    return <HeaderMenu />;
 }
 
 export default App;
