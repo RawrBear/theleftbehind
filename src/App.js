@@ -1,5 +1,5 @@
 import HeaderMenu from "./components/HeaderMenu";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/Hero";
 
 function App() {
     return (

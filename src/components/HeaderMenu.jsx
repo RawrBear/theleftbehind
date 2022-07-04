@@ -2,7 +2,7 @@ import React from "react";
 
 function HeaderMenu() {
     return (
-        <div className="border-b-2 navbar bg-base-100 border-slate-800">
+        <div className="border-b-2 navbar bg-base-100/75 border-slate-800 z-50 sticky top-0">
             <div className="flex-1">
                 <a className="text-xl normal-case btn btn-ghost">
                     <h3>THE LEFT BEHIND</h3>
