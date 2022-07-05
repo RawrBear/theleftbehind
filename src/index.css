@@ -8,10 +8,14 @@
         @apply text-3xl font-Cinzel;
     }
     h2 {
-        @apply text-2xl;
+        @apply text-2xl font-Cinzel;
     }
     h3 {
-        @apply text-xl;
+        @apply text-xl font-Cinzel;
+    }
+
+    a {
+        @apply font-Martel;
     }
 
     p {

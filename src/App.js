@@ -1,8 +1,16 @@
+import HeaderMenu from "./components/HeaderMenu";
+import Hero from "./components/Hero/Hero";
+import { IntroText } from "./components/IntroText/IntroText";
+import Timeline from "./components/Timeline/Timeline";
+
 function App() {
     return (
-        <div className="App">
-            <h1>TEST</h1>
-        </div>
+        <main>
+            <HeaderMenu />
+            <Hero />
+            <IntroText />
+            <Timeline />
+        </main>
     );
 }
 
