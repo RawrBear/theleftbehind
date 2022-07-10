@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer/Footer";
 import HeaderMenu from "./components/HeaderMenu";
 import Hero from "./components/Hero/Hero";
 import { IntroText } from "./components/IntroText/IntroText";
@@ -14,6 +15,7 @@ function App() {
                 <IntroText />
                 <Timeline />
                 <VideoMessage />
+                <Footer />
             </div>
         </main>
     );
