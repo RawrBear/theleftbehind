@@ -20,5 +20,6 @@
 
     p {
         @apply font-Martel;
+        @apply leading-relaxed;
     }
 }

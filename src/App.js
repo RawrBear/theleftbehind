@@ -1,9 +1,10 @@
-import { Footer } from "./components/Footer/Footer";
-import HeaderMenu from "./components/HeaderMenu";
-import Hero from "./components/Hero/Hero";
-import { IntroText } from "./components/IntroText/IntroText";
-import Timeline from "./components/Timeline/Timeline";
-import { VideoMessage } from "./components/VideoMessages/VideoMessage";
+import { Footer } from "./components/Footer/Footer"
+import HeaderMenu from "./components/HeaderMenu"
+import Hero from "./components/Hero/Hero"
+import { IntroText } from "./components/IntroText/IntroText"
+import { TextMessage } from "./components/TextMessages/TextMessage"
+import Timeline from "./components/Timeline/Timeline"
+import { VideoMessage } from "./components/VideoMessages/VideoMessage"
 
 function App() {
     return (
@@ -11,14 +12,15 @@ function App() {
             <HeaderMenu />
             <Hero />
             {/* ADDED SPACING BETWEEN EACH SECTION */}
-            <div className="space-y-20">
+            <div className="px-40 space-y-32">
                 <IntroText />
                 <Timeline />
                 <VideoMessage />
+                <TextMessage />
                 <Footer />
             </div>
         </main>
-    );
+    )
 }
 
-export default App;
+export default App

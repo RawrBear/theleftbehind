@@ -1,44 +1,28 @@
-import { LeftLabel } from "./TimelineLabels/LeftLabel";
-import { RightLabel } from "./TimelineLabels/RightLabel";
+import Bowls from "./Bowls"
+import Seals from "./Seals"
+import Trumpets from "./Trumpets"
 
 function Timeine() {
     return (
         <div>
+            <h2>Timeline of The Wrath of God</h2>
+
             {/* <!-- component --> */}
-            <div className="flex flex-row justify-center w-full h-20 pt-8">
-                <h2>Timeline of Events</h2>
-            </div>
-            <div className="container w-full h-full mx-auto ">
-                <div className="relative h-full p-10 overflow-hidden wrap">
-                    {/* CENTER LINE */}
-                    <div
-                        className="absolute h-full border border-secondary border-2-2 border-opacity-20"
-                        style={{ left: "50%" }}
-                    ></div>
-                    {/* END CENTER LINE */}
+            {/* START SEALS */}
+            <Seals />
+            {/* END SEALS */}
 
-                    {/* <!-- First right label --> */}
-                    <RightLabel
-                        title={"TEST"}
-                        color={"text-secondary"}
-                        number={"1"}
-                        content={"THIS IS A TEST"}
-                    />
-                    {/* <!-- End first right label --> */}
+            {/* START TRUMPETS */}
+            <Trumpets />
+            {/* END TRUMPETS */}
 
-                    {/*  <!-- First left label --> */}
+            {/* START BOWLS */}
+            <Bowls />
+            {/* END BOWLS */}
 
-                    <LeftLabel
-                        title={"TEST"}
-                        number={"2"}
-                        color={"text-secondary"}
-                        content={"THIS IS A TEST"}
-                    />
-                    {/* End first left label */}
-                </div>
-            </div>
+            {/* END OF TIMELINE */}
         </div>
-    );
+    )
 }
 
-export default Timeine;
+export default Timeine
