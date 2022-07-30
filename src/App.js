@@ -1,4 +1,5 @@
 import { Footer } from "./components/Footer/Footer"
+import Gospel from "./components/Gospel/Gospel"
 import HeaderMenu from "./components/HeaderMenu"
 import Hero from "./components/Hero/Hero"
 import { IntroText } from "./components/IntroText/IntroText"
@@ -17,6 +18,7 @@ function App() {
                 <Timeline />
                 <VideoMessage />
                 <TextMessage />
+                <Gospel />
                 <Footer />
             </div>
         </main>

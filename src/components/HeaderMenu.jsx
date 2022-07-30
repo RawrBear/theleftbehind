@@ -1,32 +1,40 @@
-import React from "react";
+import { menuScroll } from "./../animations"
 
 function HeaderMenu() {
     return (
-        <div className="border-b-2 navbar bg-base-100/75 border-slate-800 z-50 sticky top-0">
+        <div className="sticky top-0 z-50 border-b-2 navbar bg-base-100/75 border-slate-800">
             <div className="flex-1">
-                <a className="text-xl normal-case btn btn-ghost">
+                <button className="text-xl normal-case btn btn-ghost">
                     <h3>THE LEFT BEHIND</h3>
-                </a>
+                </button>
             </div>
             <div className="flex-none">
                 <ul className="p-0 menu menu-horizontal">
                     <li>
-                        <a>Disappearance</a>
+                        <button onClick={() => menuScroll("#intro")}>
+                            Disappearance
+                        </button>
                     </li>
 
                     <li>
-                        <a>Timeline</a>
+                        <button onClick={() => menuScroll("#timeline")}>
+                            Timeline
+                        </button>
                     </li>
                     <li>
-                        <a>Messages</a>
+                        <button onClick={() => menuScroll("#messages")}>
+                            Messages
+                        </button>
                     </li>
                     <li>
-                        <a>Salvation</a>
+                        <button onClick={() => menuScroll("#gospel")}>
+                            Salvation
+                        </button>
                     </li>
                 </ul>
             </div>
         </div>
-    );
+    )
 }
 
-export default HeaderMenu;
+export default HeaderMenu

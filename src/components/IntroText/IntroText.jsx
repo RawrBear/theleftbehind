@@ -2,7 +2,7 @@ import React from "react"
 
 export const IntroText = () => {
     return (
-        <div className="flex justify-center">
+        <div id="intro" className="flex justify-center">
             <div className="w-1/2 py-16 space-y-4">
                 <h1 className="pb-6 text-center">Mass Global Disappearance</h1>
                 <p>

@@ -4,7 +4,7 @@ import Trumpets from "./Trumpets"
 
 function Timeine() {
     return (
-        <div>
+        <div id="timeline">
             <h2>Timeline of The Wrath of God</h2>
 
             {/* <!-- component --> */}

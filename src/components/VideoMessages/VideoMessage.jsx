@@ -2,7 +2,7 @@ import VideoMessageComponent from "./VideoMessageComponent"
 
 export const VideoMessage = () => {
     return (
-        <div className="flex flex-row justify-center">
+        <div id="messages" className="flex flex-row justify-center">
             <div className="flex flex-col items-center space-y-4">
                 <header className="w-full text-center">
                     <h2>Video Messages To You</h2>
