@@ -4,7 +4,9 @@ export const IntroText = () => {
     return (
         <div id="intro" className="flex justify-center">
             <div className="w-1/2 py-16 space-y-4">
-                <h1 className="pb-6 text-center">Mass Global Disappearance</h1>
+                <h1 className="pb-6 text-center text-secondary">
+                    Mass Global Disappearance
+                </h1>
                 <p>
                     This site is here as a resource to those who are left behind
                     after the mass disappearance. I'm not sure how they will say

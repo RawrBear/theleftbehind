@@ -2,10 +2,13 @@ import Bowls from "./Bowls"
 import Seals from "./Seals"
 import Trumpets from "./Trumpets"
 
-function Timeine() {
+function Timeline() {
     return (
         <div id="timeline">
-            <h2>Timeline of The Wrath of God</h2>
+            <div className="text-center">
+                {" "}
+                <h2 className="text-secondary">Timeline of The Wrath of God</h2>
+            </div>
 
             {/* <!-- component --> */}
             {/* START SEALS */}
@@ -25,4 +28,4 @@ function Timeine() {
     )
 }
 
-export default Timeine
+export default Timeline

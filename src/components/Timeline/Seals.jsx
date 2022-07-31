@@ -204,7 +204,7 @@ export default function Seals() {
                                 saying its man's greed and nature. Well, man
                                 can't do what is coming with this seal being
                                 opened! It will start with a great earthquake,
-                                the sun will turn black and the mood will turn
+                                the sun will turn black and the moon will turn
                                 red as blood. There will be multiple meteors
                                 hitting the earth like "the stars of heaven
                                 falling to earth". And to finish off this great

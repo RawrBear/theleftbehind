@@ -18,5 +18,6 @@
         "titleBar.inactiveBackground": "#2e0f4a99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#2E0F4A"
+    "peacock.color": "#2E0F4A",
+    "cSpell.words": ["judgements"]
 }

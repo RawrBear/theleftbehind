@@ -16,8 +16,8 @@ function App() {
             <div className="px-40 space-y-32">
                 <IntroText />
                 <Timeline />
-                <VideoMessage />
-                <TextMessage />
+                {/* <VideoMessage />
+                <TextMessage /> */}
                 <Gospel />
                 <Footer />
             </div>
