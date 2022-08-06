@@ -19,7 +19,7 @@ export default function Seals() {
 
                     {/* <!-- Start Rapture --> */}
                     <RightLabel
-                        number={"1"}
+                        number={" "}
                         title={"Rapture / Disappearance"}
                         content={
                             <>
@@ -61,7 +61,7 @@ export default function Seals() {
                     {/*  <!-- Start first Seal (Left) --> */}
 
                     <LeftLabel
-                        number={"2"}
+                        number={"1"}
                         title={"The Antichrist"}
                         content={
                             <>
@@ -84,7 +84,7 @@ export default function Seals() {
                     />
 
                     <LeftLabel
-                        number={"2.5"}
+                        number={"1.5"}
                         title={""}
                         content={
                             <>
@@ -107,7 +107,7 @@ export default function Seals() {
 
                     {/* Start second seal (Right) */}
                     <RightLabel
-                        number={"3"}
+                        number={"2"}
                         title={"War"}
                         content={
                             <>
@@ -129,7 +129,7 @@ export default function Seals() {
 
                     {/* Start third seal (Left) */}
                     <LeftLabel
-                        number={"4"}
+                        number={"3"}
                         title={"Famine & Recession "}
                         content={
                             <>
@@ -150,7 +150,7 @@ export default function Seals() {
 
                     {/* Start fourth seal (Right) */}
                     <RightLabel
-                        number={"5"}
+                        number={"4"}
                         title={"Widespread Death"}
                         content={
                             <>
@@ -173,7 +173,7 @@ export default function Seals() {
 
                     {/* Start fifth seal (Left) */}
                     <LeftLabel
-                        number={"6"}
+                        number={"5"}
                         title={"The Killing of The Martyrs"}
                         content={
                             <>
@@ -196,7 +196,7 @@ export default function Seals() {
 
                     {/* Start sixth seal (Right) */}
                     <RightLabel
-                        number={"7"}
+                        number={"6"}
                         title={"Cosmic Disturbances"}
                         content={
                             <>
@@ -226,24 +226,28 @@ export default function Seals() {
 
                     {/* Start seventh seal (Left) */}
                     <LeftLabel
-                        number={"8"}
-                        title={"Fire, Blood & Hail"}
+                        number={"7"}
+                        title={"Silence"}
                         content={
                             <>
-                                Around this time, the Antichrist and his false
-                                religion will turn their attention to people
-                                that have been saved (converted to Christianity)
-                                by the 144,000 since the Rapture occurred. He
-                                will start killing these new converts as
-                                examples to bring people to his religion. These
-                                martyrs will go to heaven and wait until the end
-                                of the Tribulation. This is the last seal and
-                                the trumpets start the "Great Tribulation"
+                                At the opening of the Seventh Seal “there was
+                                silence in heaven for about half an hour” as
+                                this marks the starting of the Great
+                                Tribulation. While the people in heaven are
+                                watching in silence, seven angels are handed
+                                trumpets, ready to start the next set of
+                                judgements. <br /> <br />
+                                Another angel takes a censer filled with "much
+                                incense" and burns it, signifying the prayers
+                                made to God. The same angel then fills the
+                                censer wil fire from God's altar and throws it
+                                at the earth. This causes an earthquake, thunder
+                                and lightning.
                             </>
                         }
-                        verse={" Revelation 6:9"}
+                        verse={" Revelation 8:1-6"}
                         verseLink={
-                            "https://www.biblegateway.com/passage/?search=Revelation+6%3A9&version=NKJV"
+                            "https://www.biblegateway.com/passage/?search=Revelation+8%3A1-6&version=NKJV"
                         }
                         color={"text-secondary"}
                     />

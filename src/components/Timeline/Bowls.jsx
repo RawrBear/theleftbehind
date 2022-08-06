@@ -31,7 +31,7 @@ export default function Bowls() {
                                 The first bowl is poured out and “ugly,
                                 festering and harmful sores” will break out on
                                 the people that have the mark of the beast.
-                                Those who re marked by God will be spared from
+                                Those who are marked by God will be spared from
                                 this punishment.
                             </>
                         }
