@@ -203,47 +203,6 @@ export default function Trumpets() {
                         color={"text-secondary"}
                     />
 
-                    <RightLabel
-                        number={"7.5"}
-                        title={""}
-                        content={
-                            <>
-                                We know that after the rapture (the
-                                disappearance), there will be a merging of all
-                                religions in to a one world religion, and by the
-                                mid point of the tribulation (this timeline),
-                                the antichrist (leader of the one world
-                                government) will start attacking and killing
-                                anyone following that religion.
-                                <br />
-                                <br />
-                                During this time, the antichrist will be killed,
-                                It’s speculated that he’ll be assassinated
-                                during a public address, but will come back to
-                                life. It’s also thought that he will be dead for
-                                3 days to mimic Jesus’ resurrection. Once he is
-                                killed, Satan is thrown out of heaven and down
-                                to the earth where he will “possess” (give power
-                                to) the antichrist, healing the wound and
-                                bringing him back to life.
-                                <br />
-                                <br />
-                                Once he is back on his feet, he will call
-                                himself God and force everyone who is not saved
-                                by God to take “the mark of the beast”. We’re
-                                not told exactly what this is but without it you
-                                wont be able to buy food, hold a job, or have
-                                any money. He will kill anyone who doesn’t take
-                                the mark and worship him.
-                            </>
-                        }
-                        verse={" Revelation 13:5-9"}
-                        verseLink={
-                            "https://biblia.com/bible/esv/revelation/13/5-9"
-                        }
-                        color={"text-secondary"}
-                    />
-
                     {/* End seventh trumpet (Right) */}
                 </div>
 

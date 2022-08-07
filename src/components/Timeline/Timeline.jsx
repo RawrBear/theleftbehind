@@ -1,4 +1,5 @@
 import Bowls from "./Bowls"
+import Midpoint from "./Midpoint"
 import Seals from "./Seals"
 import Trumpets from "./Trumpets"
 
@@ -14,6 +15,10 @@ function Timeline() {
             {/* START SEALS */}
             <Seals />
             {/* END SEALS */}
+
+            {/* START MIDPOINT */}
+            <Midpoint />
+            {/* END MIDPOINT */}
 
             {/* START TRUMPETS */}
             <Trumpets />

@@ -19,7 +19,7 @@ export default function Seals() {
 
                     {/* <!-- Start Rapture --> */}
                     <RightLabel
-                        number={" "}
+                        number={"0"}
                         title={"Rapture / Disappearance"}
                         content={
                             <>
@@ -37,19 +37,23 @@ export default function Seals() {
                         color={"text-purple-500"}
                     />
                     <RightLabel
-                        number={"1.5"}
+                        number={"0.5"}
                         title={""}
                         content={
                             <>
-                                {" "}
                                 There are 3 major players to keep in mind with
-                                this timeline: The False Prophet (a lot of
-                                people think this will be the Pope at the time.
-                                It could be any leader that will confirm the
-                                antichrist is the messiah). The Antichrist (a
-                                fake version of Jesus, powered by Satan to trick
-                                people into following him. Also known as “The
-                                Beast”). Satan (also known as the dragon)
+                                this timeline: <br /> <br /> The False Prophet
+                                (a lot of people think this will be the Pope at
+                                the time. It could be any religious leader that
+                                will confirm the antichrist is the messiah). It
+                                could be any religious figure at the term
+                                "prophet" suggests it but it's not stated which
+                                religion. <br />
+                                <br />
+                                The Antichrist (a fake version of Jesus, powered
+                                by Satan to trick people into following him.
+                                Also known as “The Beast”). <br /> Satan (also
+                                known as the dragon).
                             </>
                         }
                         color={"text-purple-500"}
@@ -70,10 +74,13 @@ export default function Seals() {
                                 to power as the ruler of the one world
                                 government. You will see this man has all the
                                 answers and will easily sway people to his point
-                                of view. He will confirm a peace deal with
-                                Israel and the Middle East to make people think
-                                he is the best possible leader. This man is
-                                powered by Satan, DO NOT BELIEVE HIM!
+                                of view. <br />
+                                <br />
+                                He will confirm a peace deal with Israel, so
+                                that Israel can declare “peace and safety” that
+                                means no Palestinians lobbing missiles and they
+                                will be able to rebuild their 3rd temple. This
+                                man is powered by Satan, DO NOT BELIEVE HIM!
                             </>
                         }
                         verse={"Daniel 9:27"}
@@ -106,6 +113,34 @@ export default function Seals() {
                     {/* End first Seal (Left) */}
 
                     {/* Start second seal (Right) */}
+
+                    <RightLabel
+                        number={"1.7"}
+                        title={"Two Witnesses"}
+                        content={
+                            <>
+                                The two “witnesses” will be talking about Jesus
+                                in Israel, probably mostly in Jerusalem. They
+                                have the power to bring about plagues across the
+                                world and bring about droughts. It is believed
+                                they will be Moses and Elijah as it's a Jewish
+                                custom to lay a place at the table for them
+                                during certain feasts. Everyone across the world
+                                will want them dead but they will breath fire on
+                                the people that try to harm them.
+                                <br /> <br />
+                                "And if anyone wants to harm them, fire proceeds
+                                from their mouth and devours their enemies. And
+                                if anyone wants to harm them, he must be killed
+                                in this manner.".
+                            </>
+                        }
+                        verse={"Revelation 11:3-6"}
+                        verseLink={
+                            "https://www.biblegateway.com/passage/?search=Revelation+11%3A3-6&version=NKJV"
+                        }
+                        color={"text-secondary"}
+                    />
                     <RightLabel
                         number={"2"}
                         title={"War"}
@@ -240,7 +275,7 @@ export default function Seals() {
                                 Another angel takes a censer filled with "much
                                 incense" and burns it, signifying the prayers
                                 made to God. The same angel then fills the
-                                censer wil fire from God's altar and throws it
+                                censer with fire from God's altar and throws it
                                 at the earth. This causes an earthquake, thunder
                                 and lightning.
                             </>
