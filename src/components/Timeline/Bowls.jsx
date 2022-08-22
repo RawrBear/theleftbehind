@@ -1,22 +1,18 @@
-import { Fragment } from "react"
 import { LeftLabel } from "./TimelineLabels/LeftLabel"
 import { RightLabel } from "./TimelineLabels/RightLabel"
 
 export default function Bowls() {
     return (
-        <Fragment>
-            <div className="flex flex-row justify-center w-full h-20 pt-8">
+        <>
+            <div className="flex flex-row justify-center w-full h-20 pt-8 ">
                 <h2>Bowls</h2>
             </div>
 
             {/* START CONTENT */}
-            <div className="container w-full h-full mx-auto ">
-                <div className="relative h-full p-10 overflow-hidden wrap">
+            <div className="container h-full mx-auto ">
+                <div className="h-full p-10 overflow-hidden lg:relative wrap">
                     {/* CENTER LINE */}
-                    <div
-                        className="absolute h-full border border-secondary border-2-2 border-opacity-20"
-                        style={{ left: "50%" }}
-                    ></div>
+                    <div className="hidden h-full border lg:block lg:absolute border-secondary border-2-2 border-opacity-20 left-1/2"></div>
                     {/* END CENTER LINE */}
 
                     <LeftLabel
@@ -202,7 +198,7 @@ export default function Bowls() {
                     {/* End seventh bowls (Right) */}
                 </div>
                 <div className="flex flex-row justify-center w-full h-20 pt-8">
-                    <h2 className="text-primary">Armageddon</h2>
+                    <h2 className="text-3xl text-primary">Armageddon</h2>
                 </div>
                 <div className="container w-full h-full mx-auto ">
                     <RightLabel
@@ -228,12 +224,12 @@ export default function Bowls() {
                         verseLink={
                             "https://biblia.com/bible/esv/revelation/19/11-21"
                         }
-                        color={"text-purple-500"}
+                        color={"text-primary"}
                     />
                 </div>
 
                 {/* END OF CONTENT */}
             </div>
-        </Fragment>
+        </>
     )
 }

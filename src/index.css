@@ -5,21 +5,25 @@
 
 @layer base {
     h1 {
-        @apply text-3xl font-Cinzel;
-    }
-    h2 {
-        @apply text-2xl font-Cinzel;
-    }
-    h3 {
-        @apply text-xl font-Cinzel;
+        @apply text-2xl lg:text-4xl font-Cinzel;
     }
 
-    a {
-        @apply font-Martel;
+    h2 {
+        @apply font-normal text-xl lg:text-3xl font-Cinzel;
+    }
+
+    h3 {
+        @apply text-base lg:font-light  lg:text-2xl font-Cinzel;
+    }
+
+    h4 {
+        @apply font-thin lg:text-xl font-Cinzel;
+    }
+    h5 {
+        @apply font-thin lg:text-lg font-Cinzel;
     }
 
     p {
-        @apply font-Martel;
-        @apply leading-relaxed;
+        @apply font-light text-base text-base-content font-Martel leading-7;
     }
 }

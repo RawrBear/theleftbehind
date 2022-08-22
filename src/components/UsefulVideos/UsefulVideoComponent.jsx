@@ -1,6 +1,6 @@
 import ReactPlayer from "react-player"
 
-export default function VideoMessageComponent({
+export default function UsefulVideosComponent({
     videoURL,
     chanName,
     vidDesc,

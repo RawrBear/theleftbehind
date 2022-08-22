@@ -8,19 +8,20 @@ export const VideoMessage = () => {
                     <h2>Video Messages To You</h2>
                 </header>
                 <p>
-                    These are video messages left for you by various YouTubers
-                    and Biblical researchers. They are messages to you, the left
-                    behind.
+                    These are video messages left for you by various Biblical
+                    teachers, researchers, and pastors. These are heartfelt
+                    messages to you, the left behind.
                 </p>
                 <section className="flex flex-row flex-wrap justify-center w-full gap-4 pt-12">
-                    <VideoMessageComponent
+                    {/* <VideoMessageComponent
                         videoURL={
                             "https://www.youtube.com/watch?v=8DploTqLstE&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=2"
                         }
                         chanName={"TEST"}
                         vidDesc={"some random blurb"}
                         chanURL={null}
-                    />
+                    /> */}
+                    <h4>Videos Coming Soon!</h4>
                 </section>
             </div>
         </div>

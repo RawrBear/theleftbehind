@@ -1,20 +1,16 @@
-import { Fragment } from "react"
 import { LeftLabel } from "./TimelineLabels/LeftLabel"
 import { RightLabel } from "./TimelineLabels/RightLabel"
 export default function Seals() {
     return (
-        <Fragment>
-            <div className="flex flex-row justify-center w-full h-20 pt-8">
+        <>
+            <div className="flex flex-row justify-center w-full h-20 pt-8 ">
                 <h2>Seals</h2>
             </div>
             {/* START CONTENT */}
-            <div className="container w-full h-full mx-auto ">
-                <div className="relative h-full p-10 overflow-hidden wrap">
+            <div className="container h-full mx-auto ">
+                <div className="h-full p-10 overflow-hidden lg:relative wrap">
                     {/* CENTER LINE */}
-                    <div
-                        className="absolute h-full border border-secondary border-2-2 border-opacity-20"
-                        style={{ left: "50%" }}
-                    ></div>
+                    <div className="hidden h-full border lg:block lg:absolute border-secondary border-2-2 border-opacity-20 left-1/2"></div>
                     {/* END CENTER LINE */}
 
                     {/* <!-- Start Rapture --> */}
@@ -291,6 +287,6 @@ export default function Seals() {
 
                 {/* END OF CONTENT */}
             </div>
-        </Fragment>
+        </>
     )
 }

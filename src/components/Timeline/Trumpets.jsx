@@ -10,13 +10,10 @@ export default function Trumpets() {
             </div>
 
             {/* START CONTENT */}
-            <div className="container w-full h-full mx-auto ">
-                <div className="relative h-full p-10 overflow-hidden wrap">
+            <div className="container h-full mx-auto ">
+                <div className="h-full p-10 overflow-hidden lg:relative wrap">
                     {/* CENTER LINE */}
-                    <div
-                        className="absolute h-full border border-secondary border-2-2 border-opacity-20"
-                        style={{ left: "50%" }}
-                    ></div>
+                    <div className="hidden h-full border lg:block lg:absolute border-secondary border-2-2 border-opacity-20 left-1/2"></div>
                     {/* END CENTER LINE */}
 
                     {/* Start first trumpet (Right) */}
